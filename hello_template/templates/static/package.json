@@ -1,0 +1,37 @@
+{
+	"name": "myflaskapp",
+	"version": "1.0.0",
+	"description": "Flask Full stack app",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack -p --progress --config webpack.config.js",
+		"dev-build": "webpack --progress -d --config webpack.config.js",
+		"watch": "webpack --progress -d --config webpack.config.js --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Ansh73/Full_Stack_With_Flask.git"
+	},
+	"author": "Anshul Dupare",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Ansh73/Full_Stack_With_Flask/issues"
+	},
+	"homepage": "https://github.com/Ansh73/Full_Stack_With_Flask#readme",
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-loader": "^7.1.5",
+		"babel-preset-es2015": "^6.24.1",
+		"babel-preset-react": "^6.24.1",
+		"css-loader": "^3.2.0",
+		"react": "^16.10.2",
+		"react-dom": "^16.10.2",
+		"style-loader": "^1.0.0",
+		"webpack": "^4.41.1",
+		"webpack-cli": "^3.3.9"
+	},
+	"dependencies": {
+		"history": "^4.10.1",
+		"react-router-dom": "^5.1.2"
+	}
+}
